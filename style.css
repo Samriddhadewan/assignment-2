@@ -32,6 +32,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 nav ul {
     display: flex;
@@ -104,6 +105,26 @@ nav ul a {
     width: 174px;
 }
 
-
-
-
+@media screen and (max-width:600px) {
+    nav > ul{
+        visibility: hidden;
+    }
+    .logo-content-text {
+        font-size: 1.5rem;
+    }
+     .banner-section{
+        width: auto;
+     }
+     .banner-content{
+        width: 80%;
+        margin-bottom: 40px;
+     }
+     .input-values{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+     }
+     .input-values select, .btn-sub, .input-values input{
+        width: 100%;
+     }
+}
