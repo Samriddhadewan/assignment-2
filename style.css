@@ -1,0 +1,109 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+ font-family: "Mulish", sans-serif;
+ 
+}
+
+/* some similler things  */
+.primary-color-text{
+    color: #FF5400;
+}
+.secondary-color-text{
+    color: #131318;
+}
+.small-text-color{
+    color: #424247;
+}
+/* header section styles here  */
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo-content{
+    display: flex;
+    align-items: center;
+}
+.logo-content-text{
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul a {
+    text-decoration: none;
+    margin-left: 44px;
+    font-size: 1.25rem;
+}
+/* banner section styles here  */
+.banner-container{
+    display: flex;
+    flex-direction: column;
+}
+.banner-section{
+    height: 80vh;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.banner-content{
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+.banner-des{
+    color: #FFF;
+    font-size: 1rem;
+}
+.input-values{
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.30); 
+    border-radius: 8px;
+    margin-top: 3.5rem;
+}
+.input-values input{
+    color: rgba(19, 19, 24, 0.50);
+    padding: 1rem;
+    width: 174px;
+    border: none;
+    border-radius: 8px;
+}
+.input-values select{
+    border: none;
+    width: 174px;
+    padding: 1rem;
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+}
+.btn-sub{
+    background-color: #FF5400;
+    color: #FFF;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    width: 174px;
+}
+
+
+
+
