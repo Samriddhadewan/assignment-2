@@ -225,6 +225,18 @@ main{
 .mt-16{
     margin-top: 16px;
 }
+/* a simple place styles here  */
+.a-simple-place-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.a-simple-place-texts{
+    width: 48%;
+}
+.a-simple-place-video{
+    width: 48%;
+}
 
 
 
