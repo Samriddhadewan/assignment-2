@@ -16,6 +16,9 @@
 .small-text-color{
     color: #424247;
 }
+.fluid-img{
+    width: 100%;
+}
 /* header section styles here  */
 header{
     max-width: 1440px;
@@ -49,7 +52,7 @@ nav ul a {
     flex-direction: column;
 }
 .banner-section{
-    height: 80vh;
+    height: 90vh;
     background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("./Images/Group\ 13\ \(1\)\ \(1\).png");
     background-position: center;
     background-repeat: no-repeat;
@@ -104,27 +107,87 @@ nav ul a {
     border-radius: 8px;
     width: 174px;
 }
+/* populer section styles here  */
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.populer-tour-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.populer-tour-texts{
+    width: 48%;
+}
+.populer-tour-img{
+    width: 48%;
+    align-items: center;
+}
+.populer-tour-texts> p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.populer-tour-texts> ul{
+    margin-left: 20px;
+}
+.populer-tour-texts> ul li{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
 
 @media screen and (max-width:600px) {
+    header{
+        width: auto;
+        border: 1px solid peru;
+    }
     nav > ul{
         visibility: hidden;
     }
     .logo-content-text {
         font-size: 1.5rem;
     }
+    .banner-title{
+        font-size: 2.25rem;
+    }
      .banner-section{
-        width: auto;
+        width: 100%;
      }
      .banner-content{
-        width: 80%;
+        width: auto;
         margin-bottom: 40px;
      }
      .input-values{
         flex-direction: column;
         width: 80%;
-        margin: 0 auto;
+        margin: 20px auto;
+     }
+     .populer-tour-section{
+        flex-direction: column;
+        width: auto;
+        border: 1px solid #FF5400;
+     }
+     .populer-tour-section{
+        flex-direction: column;
+        width: auto;
+        padding: 20px;
+
      }
      .input-values select, .btn-sub, .input-values input{
+        width: auto;
+     }
+     .populer-tour-texts, .populer-tour-img{
+        width: 100%;
+        border: 1px solid red;
+     }
+     .fluid-img{
         width: 100%;
      }
 }
