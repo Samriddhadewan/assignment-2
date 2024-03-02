@@ -21,6 +21,7 @@
     object-fit: cover;
     height: 100%;
 }
+
 /* header section styles here  */
 header{
     max-width: 1440px;
@@ -143,6 +144,7 @@ main{
 .destination-section{
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .destination-section> h1{
     margin-bottom: 1.5rem;
@@ -159,41 +161,70 @@ main{
 .box-1{
     grid-column: 1/span 6;
     grid-row: 1/span 1;
-    border-radius: 1rem;
-
 }
 .box-2{
     grid-column: 7/span 6;
     grid-row: 1/span 1;
-    border-radius: 1rem;
 }
 .box-3{
     grid-column: 1/span 4;
     grid-row: 2/span 1;
-    border-radius: 1rem;
 }
 .box-4{
     grid-column: 5/span 5;
     grid-row: 2/span 1;
-    border-radius: 1rem;
 }
 .box-5{
     grid-column: 10/span 3;
     grid-row: 2/span 1;
-    border-radius: 1rem;
 }
 .box-6{
     grid-column: 1/span 5;
     grid-row: 3/span 1;
-    border-radius: 100px;
 }
 .box-7{
     grid-column: 6/span 7;
     grid-row: 3/span 1;
-    border-radius: 1rem;
+
 }
 
-
+/* why choose us section styles here  */
+.card-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    width: 48%;
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 1rem;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+}
+.card-content{
+    padding: 2rem ;
+}
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 1rem 0 ;
+}
+.choose-us-text{
+    text-align: center;
+}
+.choose-us-text > h1{
+    margin-bottom: 16px;
+}
+.choose-us-text >p{
+    margin-bottom: 48px;
+}
+.bg-sky{
+    background-color: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+}
+.mt-16{
+    margin-top: 16px;
+}
 
 
 
@@ -230,7 +261,7 @@ main{
      .populer-tour-section{
         flex-direction: column;
         width: auto;
-        border: 1px solid #FF5400;
+
      }
      .populer-tour-section{
         flex-direction: column;
@@ -243,7 +274,7 @@ main{
      }
      .populer-tour-texts, .populer-tour-img{
         width: 100%;
-        border: 1px solid red;
+
      }
      .fluid-img{
         width: 100%;
@@ -284,5 +315,18 @@ main{
     .box-7{
         grid-column: 1/span 1;
         grid-row: 7/span 1;
+    }
+    .choose-us-section{
+        width: 100%;
+    }
+    .choose-us-text{
+        width: 90%;
+    }
+    .card-section{
+        flex-direction: column;
+    }
+    .card{
+        width: 90%;
+        margin: 20px auto;
     }
 }
