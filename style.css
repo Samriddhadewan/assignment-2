@@ -252,6 +252,50 @@ main{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+/* newsletter styles here  */
+.newsletter-section{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-form{
+    width: 38%;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    padding: 40px;
+}
+.newsletter-img{
+    width: 58%;
+    position: relative;
+}
+.newsletter-form p{
+    margin-bottom: 1.5rem;
+}
+.newsletter-form > input{
+    height: 50px;
+    width: 100%;
+    border: none;
+    margin-top: 16px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.newsletter-form button{
+    width: 100%;
+    margin-top: 16px;
+    height: 50px;
+}
+.price-tag{
+    padding: 30px;
+    color: #FFF;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    text-align: center;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
 
 
 
@@ -263,9 +307,10 @@ main{
     }
     nav > ul{
         visibility: hidden;
+        display: none;
     }
     nav{
-        flex-direction: column;
+
     }
     .logo-content-text {
         font-size: 1.5rem;
@@ -365,5 +410,12 @@ main{
     }
     .a-simple-place-video{
         width: 90%;
+    }
+    .newsletter-section{
+        flex-direction: column;
+    }
+    .newsletter-form, .newsletter-img{
+        width: 90%;
+        margin: 20px auto;
     }
 }
