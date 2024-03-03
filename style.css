@@ -230,12 +230,27 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .a-simple-place-texts{
     width: 48%;
 }
 .a-simple-place-video{
     width: 48%;
+}
+.a-simple-place-texts p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.a-simple-place-texts ul{
+    margin-left: 20px;
+    font-weight: 800;
+}
+
+.a-simple-place-texts ul > li{
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -340,5 +355,15 @@ main{
     .card{
         width: 90%;
         margin: 20px auto;
+    }
+    .a-simple-place-section{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .a-simple-place-texts{
+        width: 90%;
+    }
+    .a-simple-place-video{
+        width: 90%;
     }
 }
